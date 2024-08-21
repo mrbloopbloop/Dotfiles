@@ -1,0 +1,2 @@
+require("bloop")
+print("hello")
