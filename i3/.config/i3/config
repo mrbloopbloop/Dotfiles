@@ -37,8 +37,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id picom
 
 exec_always --no-startup-id killall polybar
-exec_always --no-startup-id polybar
-exec_always --no-startup-id polybar altbar
+exec_always --no-startup-id polybar example
+exec_always --no-startup-id polybar other
 exec_always feh --bg-scale ~/Pictures/Bloop-Background.png
 
 # Use pactl to adjust volume in PulseAudio.
