@@ -1,2 +1,1 @@
 require("bloop")
-print("hello")
